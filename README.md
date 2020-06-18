@@ -31,7 +31,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    implementation 'com.github.AbidFaiz:Charts:-SNAPSHOT'
 }
 ```
 
@@ -46,9 +46,9 @@ dependencies {
 
 <!-- <dependencies> section of pom.xml -->
 <dependency>
-    <groupId>com.github.PhilJay</groupId>
-    <artifactId>MPAndroidChart</artifactId>
-    <version>v3.1.0</version>
+    <groupId>com.github.AbidFaiz</groupId>
+    <artifactId>Charts</artifactId>
+    <version>master-SNAPSHOT</version>
 </dependency>
 ```
 
