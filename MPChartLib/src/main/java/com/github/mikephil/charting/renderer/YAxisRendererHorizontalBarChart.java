@@ -86,7 +86,7 @@ public class YAxisRendererHorizontalBarChart extends YAxisRenderer {
 
         if (dependency == AxisDependency.LEFT) {
 
-            if (labelPosition == YAxisLabelPosition.OUTSIDE_CHART) {
+            if (labelPosition == YAxisLabelPosition.LEFT) {
                 yPos = mViewPortHandler.contentTop() - baseYOffset;
             } else {
                 yPos = mViewPortHandler.contentTop() - baseYOffset;
@@ -94,7 +94,7 @@ public class YAxisRendererHorizontalBarChart extends YAxisRenderer {
 
         } else {
 
-            if (labelPosition == YAxisLabelPosition.OUTSIDE_CHART) {
+            if (labelPosition == YAxisLabelPosition.LEFT) {
                 yPos = mViewPortHandler.contentBottom() + textHeight + baseYOffset;
             } else {
                 yPos = mViewPortHandler.contentBottom() + textHeight + baseYOffset;
