@@ -1,8 +1,8 @@
 package com.xxmassdeveloper.mpchartexample.custom;
 
-import com.github.mikephil.charting.components.AxisBase;
-import com.github.mikephil.charting.components.XAxis;
-import com.github.mikephil.charting.formatter.ValueFormatter;
+import com.github.abid.charting.components.AxisBase;
+import com.github.abid.charting.components.XAxis;
+import com.github.abid.charting.formatter.ValueFormatter;
 
 import java.text.DecimalFormat;
 

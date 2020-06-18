@@ -9,16 +9,16 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.WindowManager;
 
-import com.github.mikephil.charting.charts.LineChart;
-import com.github.mikephil.charting.components.Legend;
-import com.github.mikephil.charting.components.XAxis;
-import com.github.mikephil.charting.components.YAxis;
-import com.github.mikephil.charting.data.Entry;
-import com.github.mikephil.charting.data.LineData;
-import com.github.mikephil.charting.data.LineDataSet;
-import com.github.mikephil.charting.formatter.IFillFormatter;
-import com.github.mikephil.charting.interfaces.dataprovider.LineDataProvider;
-import com.github.mikephil.charting.interfaces.datasets.ILineDataSet;
+import com.github.abid.charting.charts.LineChart;
+import com.github.abid.charting.components.Legend;
+import com.github.abid.charting.components.XAxis;
+import com.github.abid.charting.components.YAxis;
+import com.github.abid.charting.data.Entry;
+import com.github.abid.charting.data.LineData;
+import com.github.abid.charting.data.LineDataSet;
+import com.github.abid.charting.formatter.IFillFormatter;
+import com.github.abid.charting.interfaces.dataprovider.LineDataProvider;
+import com.github.abid.charting.interfaces.datasets.ILineDataSet;
 import com.xxmassdeveloper.mpchartexample.notimportant.DemoBase;
 
 import java.util.ArrayList;

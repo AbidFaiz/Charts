@@ -2,7 +2,6 @@
 package com.xxmassdeveloper.mpchartexample;
 
 import android.Manifest;
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.RectF;
@@ -15,23 +14,22 @@ import android.view.WindowManager;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.core.content.ContextCompat;
 
-import com.github.mikephil.charting.charts.HorizontalBarChart;
-import com.github.mikephil.charting.components.Legend;
-import com.github.mikephil.charting.components.XAxis;
-import com.github.mikephil.charting.components.XAxis.XAxisPosition;
-import com.github.mikephil.charting.components.YAxis;
-import com.github.mikephil.charting.data.BarData;
-import com.github.mikephil.charting.data.BarDataSet;
-import com.github.mikephil.charting.data.BarEntry;
-import com.github.mikephil.charting.data.Entry;
-import com.github.mikephil.charting.highlight.Highlight;
-import com.github.mikephil.charting.interfaces.datasets.IBarDataSet;
-import com.github.mikephil.charting.listener.OnChartValueSelectedListener;
-import com.github.mikephil.charting.utils.MPPointF;
+import com.github.abid.charting.charts.HorizontalBarChart;
+import com.github.abid.charting.components.Legend;
+import com.github.abid.charting.components.XAxis;
+import com.github.abid.charting.components.XAxis.XAxisPosition;
+import com.github.abid.charting.components.YAxis;
+import com.github.abid.charting.data.BarData;
+import com.github.abid.charting.data.BarDataSet;
+import com.github.abid.charting.data.BarEntry;
+import com.github.abid.charting.data.Entry;
+import com.github.abid.charting.highlight.Highlight;
+import com.github.abid.charting.interfaces.datasets.IBarDataSet;
+import com.github.abid.charting.listener.OnChartValueSelectedListener;
+import com.github.abid.charting.utils.MPPointF;
 import com.xxmassdeveloper.mpchartexample.notimportant.DemoBase;
 
 import java.util.ArrayList;

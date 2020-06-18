@@ -5,12 +5,12 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.widget.TextView;
 
-import com.github.mikephil.charting.components.MarkerView;
-import com.github.mikephil.charting.data.BarEntry;
-import com.github.mikephil.charting.data.Entry;
-import com.github.mikephil.charting.highlight.Highlight;
-import com.github.mikephil.charting.utils.MPPointF;
-import com.github.mikephil.charting.utils.Utils;
+import com.github.abid.charting.components.MarkerView;
+import com.github.abid.charting.data.BarEntry;
+import com.github.abid.charting.data.Entry;
+import com.github.abid.charting.highlight.Highlight;
+import com.github.abid.charting.utils.MPPointF;
+import com.github.abid.charting.utils.Utils;
 import com.xxmassdeveloper.mpchartexample.R;
 
 /**

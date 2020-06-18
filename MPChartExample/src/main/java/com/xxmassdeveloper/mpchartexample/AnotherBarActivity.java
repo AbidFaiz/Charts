@@ -14,15 +14,15 @@ import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
 
-import com.github.mikephil.charting.charts.BarChart;
-import com.github.mikephil.charting.components.XAxis;
-import com.github.mikephil.charting.components.XAxis.XAxisPosition;
-import com.github.mikephil.charting.data.BarData;
-import com.github.mikephil.charting.data.BarDataSet;
-import com.github.mikephil.charting.data.BarEntry;
-import com.github.mikephil.charting.interfaces.datasets.IBarDataSet;
-import com.github.mikephil.charting.interfaces.datasets.IDataSet;
-import com.github.mikephil.charting.utils.ColorTemplate;
+import com.github.abid.charting.charts.BarChart;
+import com.github.abid.charting.components.XAxis;
+import com.github.abid.charting.components.XAxis.XAxisPosition;
+import com.github.abid.charting.data.BarData;
+import com.github.abid.charting.data.BarDataSet;
+import com.github.abid.charting.data.BarEntry;
+import com.github.abid.charting.interfaces.datasets.IBarDataSet;
+import com.github.abid.charting.interfaces.datasets.IDataSet;
+import com.github.abid.charting.utils.ColorTemplate;
 import com.xxmassdeveloper.mpchartexample.notimportant.DemoBase;
 
 import java.util.ArrayList;

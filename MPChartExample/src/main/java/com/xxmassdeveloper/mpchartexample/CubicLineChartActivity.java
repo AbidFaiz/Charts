@@ -15,16 +15,16 @@ import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
 
-import com.github.mikephil.charting.charts.LineChart;
-import com.github.mikephil.charting.components.XAxis;
-import com.github.mikephil.charting.components.YAxis;
-import com.github.mikephil.charting.data.Entry;
-import com.github.mikephil.charting.data.LineData;
-import com.github.mikephil.charting.data.LineDataSet;
-import com.github.mikephil.charting.formatter.IFillFormatter;
-import com.github.mikephil.charting.interfaces.dataprovider.LineDataProvider;
-import com.github.mikephil.charting.interfaces.datasets.IDataSet;
-import com.github.mikephil.charting.interfaces.datasets.ILineDataSet;
+import com.github.abid.charting.charts.LineChart;
+import com.github.abid.charting.components.XAxis;
+import com.github.abid.charting.components.YAxis;
+import com.github.abid.charting.data.Entry;
+import com.github.abid.charting.data.LineData;
+import com.github.abid.charting.data.LineDataSet;
+import com.github.abid.charting.formatter.IFillFormatter;
+import com.github.abid.charting.interfaces.dataprovider.LineDataProvider;
+import com.github.abid.charting.interfaces.datasets.IDataSet;
+import com.github.abid.charting.interfaces.datasets.ILineDataSet;
 import com.xxmassdeveloper.mpchartexample.notimportant.DemoBase;
 
 import java.util.ArrayList;

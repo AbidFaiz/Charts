@@ -11,12 +11,12 @@ import android.text.style.RelativeSizeSpan;
 import android.view.LayoutInflater;
 import android.view.View;
 
-import com.github.mikephil.charting.charts.PieChart;
-import com.github.mikephil.charting.components.Legend;
-import com.github.mikephil.charting.data.ChartData;
-import com.github.mikephil.charting.data.PieData;
-import com.github.mikephil.charting.formatter.PercentFormatter;
-import com.github.mikephil.charting.utils.ColorTemplate;
+import com.github.abid.charting.charts.PieChart;
+import com.github.abid.charting.components.Legend;
+import com.github.abid.charting.data.ChartData;
+import com.github.abid.charting.data.PieData;
+import com.github.abid.charting.formatter.PercentFormatter;
+import com.github.abid.charting.utils.ColorTemplate;
 import com.xxmassdeveloper.mpchartexample.R;
 
 public class PieChartItem extends ChartItem {

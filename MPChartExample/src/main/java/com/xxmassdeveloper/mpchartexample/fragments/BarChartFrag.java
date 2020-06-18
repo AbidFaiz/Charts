@@ -10,12 +10,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import com.github.mikephil.charting.charts.BarChart;
-import com.github.mikephil.charting.components.Legend;
-import com.github.mikephil.charting.components.XAxis;
-import com.github.mikephil.charting.components.YAxis;
-import com.github.mikephil.charting.listener.ChartTouchListener;
-import com.github.mikephil.charting.listener.OnChartGestureListener;
+import com.github.abid.charting.charts.BarChart;
+import com.github.abid.charting.components.Legend;
+import com.github.abid.charting.components.XAxis;
+import com.github.abid.charting.components.YAxis;
+import com.github.abid.charting.listener.ChartTouchListener;
+import com.github.abid.charting.listener.OnChartGestureListener;
 import com.xxmassdeveloper.mpchartexample.R;
 import com.xxmassdeveloper.mpchartexample.custom.MyMarkerView;
 

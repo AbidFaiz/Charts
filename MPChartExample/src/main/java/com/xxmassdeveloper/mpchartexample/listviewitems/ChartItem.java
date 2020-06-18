@@ -3,7 +3,7 @@ package com.xxmassdeveloper.mpchartexample.listviewitems;
 import android.content.Context;
 import android.view.View;
 
-import com.github.mikephil.charting.data.ChartData;
+import com.github.abid.charting.data.ChartData;
 
 /**
  * Base class of the Chart ListView items
