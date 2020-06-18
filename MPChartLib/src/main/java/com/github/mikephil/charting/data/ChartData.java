@@ -165,23 +165,23 @@ public abstract class ChartData<T extends IDataSet<? extends Entry>> {
         }
 
         // right axis
-        T firstRight = getFirstRight(mDataSets);
+//        T firstRight = getFirstRight(mDataSets);
 
-        if (firstRight != null) {
-
-            mRightAxisMax = firstRight.getYMax();
-            mRightAxisMin = firstRight.getYMin();
-
-            for (T dataSet : mDataSets) {
-                if (dataSet.getAxisDependency() == AxisDependency.RIGHT) {
-                    if (dataSet.getYMin() < mRightAxisMin)
-                        mRightAxisMin = dataSet.getYMin();
-
-                    if (dataSet.getYMax() > mRightAxisMax)
-                        mRightAxisMax = dataSet.getYMax();
-                }
-            }
-        }
+//        if (firstRight != null) {
+//
+//            mRightAxisMax = firstRight.getYMax();
+//            mRightAxisMin = firstRight.getYMin();
+//
+//            for (T dataSet : mDataSets) {
+//                if (dataSet.getAxisDependency() == AxisDependency.RIGHT) {
+//                    if (dataSet.getYMin() < mRightAxisMin)
+//                        mRightAxisMin = dataSet.getYMin();
+//
+//                    if (dataSet.getYMax() > mRightAxisMax)
+//                        mRightAxisMax = dataSet.getYMax();
+//                }
+//            }
+//        }
     }
 
     /** ONLY GETTERS AND SETTERS BELOW THIS */
