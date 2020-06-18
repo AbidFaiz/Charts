@@ -31,7 +31,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.AbidFaiz:Charts:-SNAPSHOT'
+    implementation 'com.github.AbidFaiz:Charts:v2.2.4'
 }
 ```
 
@@ -48,7 +48,7 @@ dependencies {
 <dependency>
     <groupId>com.github.AbidFaiz</groupId>
     <artifactId>Charts</artifactId>
-    <version>master-SNAPSHOT</version>
+    <version>v2.2.4</version>
 </dependency>
 ```
 
